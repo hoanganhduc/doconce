@@ -1,0 +1,1679 @@
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to latex
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+
+exporting publish database papers.pub to papers.bib:
+output in main.p.tex
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to latex
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+
+exporting publish database papers.pub to papers.bib:
+output in main.p.tex
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to latex
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+
+exporting publish database papers.pub to papers.bib:
+output in main.p.tex
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to latex
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+
+exporting publish database papers.pub to papers.bib:
+output in main.p.tex
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+*** error: could not find template "template.html"
+running mako on main.do.txt to make tmp_mako__main.do.txt
+translating doconce text in tmp_mako__main.do.txt to html
+open file with encoding utf-8
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Proposition ref{prop:every-token-is-not-confined}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:every-token-is-not-confined}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:every-token-is-not-confined})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:confined-token-in-closed-neghbor}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:confined-token-in-closed-neghbor}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:confined-token-in-closed-neghbor})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs-blockgraph}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs-blockgraph}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs-blockgraph})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-confined-clique}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-confined-clique}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-confined-clique})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Proposition ref{prop:TS-in-subgraphs}" with unexpected word "Proposition" in front
+
+    (expected Section/Chapter/Figure ref{prop:TS-in-subgraphs}, or could it be a reference to an equation, but missing parenthesis in (ref{prop:TS-in-subgraphs})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Lemma ref{lem:characterize-rigid-token}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:characterize-rigid-token}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:characterize-rigid-token})?)
+*** warning: found reference "Theorem ref{thrm:main}" with unexpected word "Theorem" in front
+
+    (expected Section/Chapter/Figure ref{thrm:main}, or could it be a reference to an equation, but missing parenthesis in (ref{thrm:main})?)
+*** warning: found reference "Lemma ref{lem:check-confined-in-polytime}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:check-confined-in-polytime}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:check-confined-in-polytime})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:slide-tokens-to-safe-vertex}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:slide-tokens-to-safe-vertex}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:slide-tokens-to-safe-vertex})?)
+*** warning: found reference "Lemma ref{lem:remove-safe-block}" with unexpected word "Lemma" in front
+
+    (expected Section/Chapter/Figure ref{lem:remove-safe-block}, or could it be a reference to an equation, but missing parenthesis in (ref{lem:remove-safe-block})?)
+*** warning: TITLE may look strange with a template -
+             it is recommended to comment out the title: #TITLE:
+*** warning: AUTHOR may look strange with a template -
+             it is recommended to comment out all authors: #AUTHOR.
+             Usually better to hardcode authors in a footer in the template.
+output in index.html

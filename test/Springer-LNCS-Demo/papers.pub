@@ -1,0 +1,144 @@
+* articles
+** On a Graph Invariant Related to the Sum of All Distances in a Graph
+   key:       dobrynin1994graph
+   author:    A. Dobrynin, Ivan Gutman
+   year:      1994
+   journal:   Publications de l'Institut Math{\'e}matique
+   publisher: Matemati{\v{c}}ki institut SANU
+   volume:    56
+   number:    76
+   pages:     18--22
+   status:    published
+   entrytype: article
+** Distance-Hereditary Graphs
+   key:       Bandelt1986
+   author:    Hans-J\"{u}rgen Bandelt, Henry Martyn Mulder
+   year:      1986
+   journal:   Journal of Combinatorial Theory, Series B
+   volume:    41
+   number:    2
+   pages:     182 -- 208
+   status:    published
+   entrytype: article
+** {PSPACE}-Completeness of Sliding-Block Puzzles and Other Problems Through the Nondeterministic Constraint Logic Model of Computation
+   key:       HearnDemaine2005
+   author:    Robert A. Hearn, Erik D. Demaine
+   year:      2005
+   journal:   Theoretical Computer Science
+   publisher: Elsevier
+   volume:    343
+   number:    1
+   pages:     72--96
+   status:    published
+   entrytype: article
+** Complexity of Independent Set Reconfigurability Problems
+   key:       KaminskiMedvedevMilanic2012
+   author:    Marcin Kamiński, Paul Medvedev, Martin Milanič
+   year:      2012
+   journal:   Theoretical Computer Science
+   publisher: Elsevier
+   volume:    439
+   pages:     9--15
+   status:    published
+   entrytype: article
+** On the Complexity of Reconfiguration Problems
+   key:       IDHPSUU
+   author:    Takehiro Ito, Erik D. Demaine, Nicholas J. A. Harvey, Christos H. Papadimitriou, Martha Sideri, Ryuhei Uehara, Yushi Uno
+   year:      2011
+   journal:   Theoretical Computer Science
+   publisher: Elsevier
+   volume:    412
+   number:    12
+   pages:     1054--1065
+   status:    published
+   entrytype: article
+** Linear-Time Algorithm for Sliding Tokens on Trees
+   key:       DDFEHIOOUY2015
+   author:    Erik D. Demaine, Martin L. Demaine, Eli Fox-Epstein, Duc A. Hoang, Takehiro Ito, Hirotaka Ono, Yota Otachi, Ryuhei Uehara, Takeshi Yamada
+   year:      2015
+   journal:   Theoretical Computer Science
+   publisher: Elsevier
+   volume:    600
+   pages:     132--142
+   status:    published
+   entrytype: article
+** Token Sliding on Chordal Graphs
+   key:           BonamyBousquet2016
+   author:        Marthe Bonamy, Nicolas Bousquet
+   year:          2016
+   journal:       arXiv preprint
+   status:        published
+   archivePrefix: arXiv
+   entrytype:     article
+   eprint:        1605.00442
+* books
+** Graph Theory
+   key:       Diestel2010
+   author:    Reinhard Diestel
+   year:      2010
+   publisher: Springer
+   volume:    173
+   status:    published
+   edition:   4th
+   entrytype: book
+   series:    Graduate Texts in Mathematics
+* chapters
+** The Complexity of Change
+   key:       Heuvel2013
+   author:    Jan {van den Heuvel}
+   editor:    Simon R. Blackburn, Stefanie Gerke, Mark Wildon
+   year:      2013
+   booktitle: Surveys in Combinatorics 2013
+   publisher: Cambridge University Press
+   pages:     127-160
+   status:    published
+   entrytype: inbook
+* proceedings
+** Sliding Tokens on a Cactus
+   key:       Hoang2016cactus
+   author:    Duc A. Hoang, Ryuhei Uehara
+   editor:    Seok-Hee Hong
+   year:      2016
+   booktitle: Algorithms and Computation - {ISAAC 2016}
+   publisher: Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik
+   volume:    64
+   pages:     37:1--37:26
+   status:    published
+   entrytype: inproceedings
+   series:    LIPIcs
+** Reconfiguring Independent Sets in Claw-Free Graphs
+   key:       BonsmaKaminskiWrochna
+   author:    Paul Bonsma, Marcin Kamiński, Marcin Wrochna
+   editor:    R. Ravi, Inge Li Gørtz
+   year:      2014
+   booktitle: Algorithm Theory - SWAT 2014
+   publisher: Springer
+   volume:    8503
+   pages:     86--97
+   status:    published
+   entrytype: inproceedings
+   series:    LNCS
+** Reconfiguration Over Tree Decompositions
+   key:       MouawadNishimuraRamanWrochna
+   author:    Amer E. Mouawad, Naomi Nishimura, Venkatesh Raman, Marcin Wrochna
+   editor:    Marek Cygan, Pinar Heggernes
+   year:      2014
+   booktitle: Parameterized and Exact Computation - {IPEC 2014}
+   publisher: Springer
+   volume:    8894
+   pages:     246-257
+   status:    published
+   entrytype: inproceedings
+   series:    LNCS
+** Sliding Token on Bipartite Permutation Graphs
+   key:       FoxEpsteinHoangOtachiUehara2015
+   author:    Eli Fox-Epstein, Duc A. Hoang, Yota Otachi, Ryuhei Uehara
+   editor:    Khaled Elbassioni, Kazuhisa Makino
+   year:      2015
+   booktitle: Algorithms and Computation - {ISAAC 2015}
+   publisher: Springer
+   volume:    9472
+   pages:     237--247
+   status:    published
+   entrytype: inproceedings
+   series:    LNCS

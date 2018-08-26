@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title> Sliding Tokens on Block Graphs </title>
+	<meta name="description" content="Duc A. Hoang's PhD Thesis" />
+	<meta name="author" content="Duc A. Hoang" />
+	<meta name="generator" content="DocOnce 1.4.4" />
+	<meta http-equiv="refresh" content="3000" />
+	<meta name="keywords" content="graph algorithm, computational complexity, combinatorial reconfiguration, sliding token, independent set" />
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	
+	<!-- Font Awsome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/7ee995d999.css">
+
+	<!-- Fonts -->
+<!--	<link href="https://fonts.googleapis.com/css?family=Cousine|Nunito" rel="stylesheet">-->
+
+	<!-- Personal CSS configuration -->
+	<link rel="stylesheet" href="http://hoanganhduc.github.io/static/css/custom.css">
+
+	<!-- Code Syntax CSS -->
+	<link rel="stylesheet" type="text/css" href="http://hoanganhduc.github.io/static/css/syntax.css">
+
+	<!-- Enable Popover -->
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="popover"]').popover();
+	});
+	</script>
+
+	<!-- Enable Tooltips -->
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+	</script>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="http://hoanganhduc.github.io/static/img/Duc.ico" type='image/x-icon'>
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+<!-- tocinfo
+{'highest level': 1,
+ 'sections': (u'1 Introduction',
+               1,
+               u'sec:introduction',
+               u'sec:introduction'),
+              (u'2 Preliminaries',
+               1,
+               u'sec:preliminaries',
+               u'sec:preliminaries'),
+              (u'2.1 Graph notation',
+               2,
+               u'sec:graph-notation',
+               u'sec:graph-notation'),
+              (u'2.2 Notation for {\\sc Sliding Token}',
+               2,
+               u'sec:TS-notation',
+               u'sec:TS-notation'),
+              (u'3 Some useful observations',
+               1,
+               u'sec:useful-observations',
+               u'sec:useful-observations'),
+              (u'4 Confined cliques in block graphs',
+               1,
+               u'sec:confined-cliques',
+               u'sec:confined-cliques'),
+              (u'5 Sliding tokens on block graphs',
+               1,
+               u'sec:TS-on-block-graphs',
+               u'sec:TS-on-block-graphs'),
+              (u'References', 2, None, '___sec7')}
+end of tocinfo -->
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+     equationNumbers: {  autoNumber: "AMS"  },
+     extensions: ["AMSmath.js", "AMSsymbols.js", "autobold.js", "color.js"]
+  }
+});
+</script>
+<script type="text/javascript" async
+ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<!-- newcommands_keep.tex -->
+$$
+\newcommand{\msize}[1]{{\left|#1\right|}}
+\newcommand{\Nei}[2]{N_{#1}(#2)}
+\newcommand{\Neiclosed}[2]{N_{#1}[#2]}
+\newcommand{\bfI}{I}
+\newcommand{\bfJ}{J}
+\newcommand{\sevstepT}[1]{\overset{#1}{\leftrightsquigarrow}}
+\newcommand{\calS}{{\cal S}}
+\newcommand{\calSp}{{\calS^\prime}}
+\newcommand{\calSpp}{{\calS^{\prime\prime}}}
+\newcommand{\sfTS}{{\sf TS}}
+\newcommand{\sfPSPACE}{\sf PSPACE}
+\newcommand{\ConfinedCliques}[1]{{\mathsf K}{(#1)}}
+\newcommand{\bfIstar}{\bfI^*}
+\newcommand{\bfIp}{\bfI^{\prime}}
+\newcommand{\bfIpp}{\bfI^{\prime\prime}}
+\newcommand{\bfJp}{\bfJ^{\prime}}
+\newcommand{\Gp}{{G^\prime}}
+\newcommand{\Gpp}{G^{\prime\prime}}
+\newcommand{\Gstar}{G^*}
+\newcommand{\Bp}{B^{\prime}}
+\newcommand{\Bpp}{B^{\prime\prime}}
+\newcommand{\dist}{\mathsf{dist}}
+$$
+
+
+
+
+<!-- ------------------- main content ---------------------- -->
+
+
+
+<center><h1>Sliding Tokens on Block Graphs</h1></center>  <!-- document title -->
+
+<p>
+<!-- author(s): Duc A. Hoang, Eli Fox-Epstein, and Ryuhei Uehara -->
+
+<center>
+<b>Duc A. Hoang</b> [1] (<tt>hoanganhduc at jaist.ac.jp</tt>)
+</center>
+
+<center>
+<b>Eli Fox-Epstein</b> [2] (<tt>ef at cs.brown.edu</tt>)
+</center>
+
+<center>
+<b>Ryuhei Uehara</b> [1] (<tt>uehara at jaist.ac.jp</tt>)
+</center>
+
+<p>
+<!-- institution(s) -->
+
+<center>[1] <b>JAIST, Japan</b></center>
+<center>[2] <b>Brown University, USA</b></center>
+<br>
+<p>
+
+<br>
+<p>
+<div class="alert alert-info">
+This is a demo for using <a href="http://hplgit.github.io/doconce/doc/web/index.html" target="_self">DocOnce</a> with my own configuration for Springer LNCS in order to generate HTML and LaTeX contents. Some functions of the original version may not work when using my modified version. <b>Use it at your own risk!!!</b>
+The published version of this paper is available at <a href="https://link.springer.com/chapter/10.1007/978-3-319-53925-6_36" target="_self">https://link.springer.com/chapter/10.1007/978-3-319-53925-6_36</a> as part of the Proceedings of <a href="http://walcom2017.nctu.edu.tw/" target="_self">WALCOM 2017</a>. Be careful: <b>there are differences between this version and the published version in references numbering.</b>
+</div>
+
+<p>
+<b>Abstract.</b> Let \( I, J \) be two given independent sets of a graph \( G \).
+Imagine that the vertices of an independent set are viewed as tokens (coins).
+A token is allowed to move (or slide) from one vertex to one of its neighbors.
+The <span style='font-variant:small-caps;'>Sliding Token</span> problem asks whether there exists a sequence of independent sets of \( G \) starting from \( I \) and ending with \( J \) such that each intermediate member of the sequence is obtained from the previous one by moving a token according to the allowed rule.
+In this paper, we claim that this problem is solvable in polynomial time when the input graph is a block graph&mdash;a graph whose blocks are cliques.
+Our algorithm is developed based on the characterization of a non-trivial structure that, in certain conditions, can be used to indicate a <span style='font-variant:small-caps;'>no</span>-instance of the problem.
+Without such a structure, a sequence of token slidings between any two independent sets of the same cardinality exists.
+
+<h1 id="sec:introduction">1 Introduction</h1>
+
+<p>
+Recently, motivated by the purpose of understanding the solution space of a problem, many theoretical computer scientists have focused on the study of <em>reconfiguration problems</em>.
+<em>Reconfiguration problems</em> are the set of problems in which we are given a collection of
+<em>feasible solutions</em>, together with some <em>reconfiguration rule(s)</em> that defines an <em>adjacency relation</em> on the set of feasible solutions of the original problem. 
+The question is, using a reconfiguration rule, whether there is a step-by-step transformation which transforms one feasible solution to another, such that each intermediate result is also feasible.
+A simple example is the famous Rubik's cube puzzle.
+The reconfigurability of several well-known problems, including 
+	<span style='font-variant:small-caps;'>satisfiability</span>,
+	<span style='font-variant:small-caps;'>independent set</span>,
+	<span style='font-variant:small-caps;'>vertex-colouring</span>, 
+	<span style='font-variant:small-caps;'>matching</span>,
+	<span style='font-variant:small-caps;'>clique</span>, etc.
+	have been studied extensively.
+For more information about this research area, see the survey <a href="#Heuvel2013">[1]</a>.
+
+<p>
+As the <span style='font-variant:small-caps;'>independent set</span> problem is one of the most important problems in the computational complexity theory, its reconfiguration variants have been well-studied <a href="#HearnDemaine2005">[2]</a> <a href="#IDHPSUU">[3]</a> <a href="#KaminskiMedvedevMilanic2012">[4]</a>.
+Recall that an <em>independent set</em> of a graph is a set of pairwise non-adjacent vertices.
+Among these variants, the <span style='font-variant:small-caps;'>Sliding Token</span> problem (first introduced by Hearn and Demaine <a href="#HearnDemaine2005">[2]</a>) is of particular interest (see <a href="#KaminskiMedvedevMilanic2012">[4]</a> for the other variants).
+Given two independent sets \( \bfI \) and \( \bfJ \) of a graph \( G \), 
+	and imagine that a token is placed on each vertex in \( \bfI \). 
+Then, the <span style='font-variant:small-caps;'>Sliding Token</span> problem asks
+whether there exists a sequence (called a \( \sfTS \)-<em>sequence</em>) 
+\( \calS = \langle \bfI_1, \bfI_2, \ldots, \bfI_{\ell} \rangle \) of independent sets of \( G \) such that
+
+<ul>
+<li> (a) \( \bfI_1=\bfI \), \( \bfI_{\ell}=\bfJ \), and \( \msize{\bfI_i} = \msize{\bfI}=\msize{\bfJ} \) for all \( i \), \( 1 \le i \le \ell \); and</li> 
+<li> (b) for each \( i \), \( 1 \le i \le \ell-1 \), there is an edge \( uv \) in \( G \) such that \( \bfI_{i} \setminus\bfI_{i+1}=\{u\} \) and \( \bfI_{i+1}\setminus\bfI_{i}=\{v\} \).</li>
+</ul>
+
+If such a sequence \( \calS \) exists, we say that \( \calS \) <em>reconfigures</em> \( \bfI \) to \( \bfJ \) in \( G \) and write \( \bfI \sevstepT{G} \bfJ \). 
+An example of a \( \sfTS \)-sequence is given in <b>Fig.</b> <a href="#fig:exa-TS-seq">1</a>. 
+Observe that &quot; \( \sevstepT{G} \) &quot; is indeed an equivalence relation.
+<span style='font-variant:small-caps;'>Sliding Token</span> is \( \sfPSPACE \)-complete even for planar graphs <a href="#HearnDemaine2005">[2]</a> and bounded-treewidth graphs <a href="#MouawadNishimuraRamanWrochna">[5]</a>.
+On the positive side, polynomial-time algorithms have been designed recently for claw-free graphs <a href="#BonsmaKaminskiWrochna">[6]</a>, cographs <a href="#KaminskiMedvedevMilanic2012">[4]</a>, trees <a href="#DDFEHIOOUY2015">[7]</a>, bipartite permutation graphs <a href="#FoxEpsteinHoangOtachiUehara2015">[8]</a>, and cactus graphs <a href="#Hoang2016cactus">[9]</a>.
+
+<p>
+<!-- original latex figure with scale=1 -->
+
+<p>
+<br />
+<center> <!-- figure label: --> <div id="fig:exa-TS-seq"></div> <!-- FIGURE -->
+<center><p class="caption">Figure 1:  Example of a \( \sfTS \)-sequence \( \langle \bfI_1, \bfI_2, \dots, \bfI_5 \rangle \) in a given graph that reconfigures \( \bfI_1 \) to \( \bfI_5 \). The vertices in independent sets are depicted by black circles (tokens).  <!-- caption label: fig:exa-TS-seq --> </p></center>
+<p><img src="fig/exa-TS-seq.png" align="bottom" width=600></p>
+</center>
+<br />
+
+<p>
+A <em>block</em> of a graph \( G \) is a maximal connected subgraph with no cut vertex.
+A <em>block graph</em> is a graph whose blocks are cliques (for example, see the graph in <b>Fig.</b> <a href="#fig:exa-TS-seq">1</a>).
+Note that, in order to preserve the independence property of the set of tokens, a token sometimes needs to make &quot;detours&quot;.
+This restriction indeed makes <span style='font-variant:small-caps;'>Sliding Token</span> more complicated (recall that the problem is \( \sfPSPACE \)-complete even for bounded-treewidth graphs), even when the input graph is a tree (see <a href="#DDFEHIOOUY2015">[7]</a>).
+As there might be exponential number of paths between any two vertices of a block graph (while in a tree, there is a unique path), 
+	for each token, we may have exponentially many choices of &quot;routes&quot; to slide and possibly super polynomial detours in general.
+Thus, in this case, the problem becomes more difficult.
+In this paper, we design a polynomial-time algorithm for solving the <span style='font-variant:small-caps;'>Sliding Token</span> problem for block graphs.
+
+<p>
+Our algorithm is designed based on the following observations.
+Given a block graph \( G \) and an independent set \( \bfI \) of \( G \), 
+	one can characterize the properties of a non-trivial structure, called \( (G, \bfI) \)-<em>confined clique</em> (Section <a href="#sec:confined-cliques">4</a>).
+More precisely, we claim that one can find all \( (G, \bfI) \)-confined cliques in polynomial time (Lemma <a href="#lem:check-confined-in-polytime">3</a>), 	
+	and, in certain conditions, we can easily derive if an instance of <span style='font-variant:small-caps;'>Sliding Token</span> is a <span style='font-variant:small-caps;'>no</span>-instance (Lemma <a href="#lem:no-instance">5</a>).
+Without such a structure, we claim that for any pair of independent sets \( \bfI, \bfJ \), \( \bfI \) is reconfigurable to \( \bfJ \) (and vice versa) if and only if they are of the same cardinality (Lemma <a href="#lem:yes-instance-if-same-size">9</a>).
+
+<p>
+Due to the limitation of space, some proofs are omitted.
+
+<h1 id="sec:preliminaries">2 Preliminaries</h1>
+
+<h2 id="sec:graph-notation">2.1 Graph notation</h2>
+
+<p>
+We define some notation that is commonly used in graph theory.
+For the notation that is not mentioned here, see <a href="#Diestel2010">[10]</a>.
+Let \( G \) be a given graph, with edge set \( E(G) \) and vertex set \( V(G) \).
+
+<p>
+We sometimes denote by \( \msize{G} \) the size of \( V(G) \).
+For a vertex \( v \), we define \( \Nei{G}{v} = \{w \in V(G): vw \in E(G)\} \), \( \Neiclosed{G}{v} = \Nei{G}{v} \cup \{v\} \) and \( \deg_G(v) = |\Nei{G}{v}| \). 
+For two vertices \( u, v \), we denote by \( \dist_G(u, v) \) the <em>distance</em> between \( u \) and \( v \) in \( G \).
+For a graph \( G \), sometimes we write \( \bfI \cap G \) and \( \bfI - G \) to indicate the sets \( \bfI \cap V(G) \) and \( \bfI \setminus V(G) \), respectively.
+
+<p>
+For \( X \subseteq V(G) \), we denote by \( G[X] \) the subgraph of \( G \) <em>induced</em> by vertices of \( X \).
+We write \( G - X \) to indicate the graph \( G[V(G) \setminus X] \).
+Similarly, for an induced subgraph \( H \) of \( G \), \( G - H \) indicates the graph \( G[V(G) \setminus V(H) \), 
+	and we say that the graph \( G - H \) is obtained by <em>removing \( H \) from \( G \)</em>.
+
+<h2 id="sec:TS-notation">2.2 Notation for <span style='font-variant:small-caps;'>Sliding Token</span></h2>
+
+<p>
+We now define some useful notation for tackling <span style='font-variant:small-caps;'>Sliding Token</span>. 
+For a \( \sfTS \)-sequence \( \calS \), we write \( \bfI \in \calS \) if an independent set \( \bfI \) of \( G \) appears in \( \calS \). 
+For a vertex \( v \), if there exists \( \bfI \in \calS \) such that \( v \in \bfI \), then we say that \( \calS \) <em>involves</em> \( v \).
+We say that \( \calS = \langle \bfI_1, \bfI_2, \ldots, \bfI_{\ell} \rangle \)  <em>slides</em> (or <em>moves</em>) the token \( t \) placed at \( u \in \bfI_1 \) to \( v \notin \bfI_1 \) in \( G \) if after applying the sliding steps described in \( \calS \), the token \( t \) is placed at \( v \in \bfI_\ell \).
+For convenience, we sometimes identify the token placed at a vertex with the vertex itself, and simply say &quot;a token in an independent set \( \bfI \).&quot;
+
+<p>
+Let \( W \subseteq V(G) \) and assume that \( \bfI \cap W \neq \emptyset \). 
+We say that a token \( t \) placed at some vertex \( u \in \bfI \cap W \) is \( (G, \bfI, W) \)-<em>confined</em> 
+	if for every \( \bfJ \) such that \( \bfI \sevstepT{G} \bfJ \), 
+	\( t \) is always placed at some vertex of \( W \).
+In other words, \( t \) can only be slid along edges of \( G[W] \).
+In case \( W = \{u\} \), \( t \) is said to be \( (G, \bfI) \)-<em>rigid</em>.
+The token \( t \) is \( (G, \bfI) \)-<em>movable</em> if it is not \( (G, \bfI) \)-rigid.
+
+<p>
+Let \( H \) be an induced subgraph of \( G \).
+\( H \) is called \( (G, \bfI) \)-<em>confined</em> if
+	\( \bfI \cap H \) is a maximum independent set of \( H \)
+	and all tokens in \( \bfI \cap H \) are \( (G, \bfI, V(H)) \)-confined.
+In particular, if \( H \) is a clique of \( G \), we say that it is a \( (G, \bfI) \)-<em>confined clique</em>.
+Note that if \( H \) is a clique then \( \msize{\bfI \cap H} \leq 1 \).
+We denote by \( \ConfinedCliques{G, \bfI} \) the set of all \( (G, \bfI) \)-confined cliques of \( G \).
+For a vertex \( v \in V(H) \), we define \( G^v_H \) 
+	to be the (connected) component of \( G_H \) containing \( v \), where \( G_H \) is obtained from \( G \) by removing all edges of \( H \).
+
+<h1 id="sec:useful-observations">3 Some useful observations</h1>
+
+<p>
+In this section, we present several useful observations.
+These observations will be implicitly used in many statements of this paper.
+The next proposition characterizes some properties of a \( (G, \bfI) \)-confined induced subgraph.
+
+<p>
+<div id="prop:extra-properies" />
+<p class='env-proposition'><strong>Proposition 1 [<a href="#Hoang2016cactus">[9]</a> (Lemma 1)].</strong> 
+Let \( \bfI \) be an independent set of a graph \( G \).
+Let \( H \) be an induced subgraph of \( G \).
+Then the following conditions are equivalent.
+
+<ul>
+<li> (i) \( H \) is \( (G, \bfI) \)-confined.</li>
+<li> (ii) For every independent set \( \bfJ \) satisfying \( \bfI \sevstepT{G} \bfJ \), \( \bfJ \cap H \) is a maximum independent set of \( H \).</li>
+<li> (iii) \( \bfI \cap H \) is a maximum independent set of \( H \) and for every \( \bfJ \) satisfying \( \bfI \sevstepT{G} \bfJ \), any token \( t_x \) placed at \( x \in \bfJ \cap H \) is \( (G^x_H, \bfJ \cap G^x_H) \)-rigid.</li>
+</ul>
+
+</p>
+
+<p>
+The next proposition says that when \( G \) is disconnected, one can deal with each component separately. In other words, when dealing with <span style='font-variant:small-caps;'>Sliding Token</span>, it suffices to consider only connected graphs.
+
+<p>
+<div id="prop:TS-in-each-compoenent" />
+<p class='env-proposition'><strong>Proposition 2 [<a href="#Hoang2016cactus">[9]</a> (Proposition 2)].</strong> 
+Let \( \bfI \), \( \bfJ \) be two given independent set of \( G \).
+Assume that \( G_1, \dots, G_k \) are the components of \( G \). 
+Then \( \bfI \sevstepT{G} \bfJ \) if and only if \( \bfI \cap G_i \sevstepT{G_i} \bfJ \cap G_i \) for \( i = 1, 2, \dots, k \).
+</p>
+
+<p>
+In the next proposition, we claim that in certain conditions, a \( \sfTS \)-sequence in a subgraph of \( G \) can be somehow &quot;extended&quot; to a sequence in \( G \), and vice versa.
+
+<p>
+<div id="prop:TS-in-subgraphs" />
+<p class='env-proposition'><strong>Proposition 3 [<a href="#Hoang2016cactus">[9]</a> (Proposition 3)].</strong> 
+Let \( u \) be a vertex of a graph \( G \).
+Let \( \calS = \langle \bfI_1, \bfI_2, \dots, \bfI_\ell \rangle \) be a \( \sfTS \)-sequence in \( G \) such that for any \( \bfI \in \calS \), \( u \in \bfI \).
+Let \( \Gpp = G - \Neiclosed{G}{u} \).
+Then \( \bfI_1 \cap \Gp \sevstepT{\Gpp} \bfI_\ell \cap \Gp \).
+Moreover, for any \( \sfTS \)-sequence \( \calSp = \langle \bfIp_1, \dots, \bfIp_l \rangle \) in \( \Gpp \), \( \bfIp_1 \cup \{u\} \sevstepT{G} \bfIp_l \cup \{u\} \).
+</p>
+
+<p>
+In case \( G \) is a block graph, we also have:
+
+<p>
+<div id="prop:TS-in-subgraphs-blockgraph" />
+<p class='env-proposition'><strong>Proposition 4.</strong>
+Let \( \bfI \) be an independent set of a block graph \( G \).
+Let \( B \) be a block of \( G \) and suppose that \( \bfI \cap B = \{u\} \).
+Let \( \calS = \langle \bfI_1, \bfI_2, \dots, \bfI_\ell \rangle \) be a \( \sfTS \)-sequence in \( G \) such that for any \( \bfJ \in \calS \), \( u \in \bfJ \).
+Let \( \Gp = G - B \).
+Then \( \bfI_1 \cap \Gp \sevstepT{\Gp} \bfI_\ell \cap \Gp \).
+Moreover, for any \( \sfTS \)-sequence \( \calSp = \langle \bfIp_1, \dots, \bfIp_l \rangle \) in \( \Gp \) such that \( \Nei{G}{u} \cap \bfIp_i = \emptyset \), where \( i \in \{1, 2, \dots, \ell\} \), \( \bfIp_1 \cup \{u\} \sevstepT{G} \bfIp_l \cup \{u\} \).
+</p>
+
+<p>
+<div id="prop:every-token-is-not-confined" />
+<p class='env-proposition'><strong>Proposition 5.</strong>
+Let \( G \) be a block graph and let \( \bfI \) be an independent set of \( G \).
+Let \( v \in V(G) \) be such that no token in \( \Nei{G}{v} \cap \bfI \) is \( (G, \bfI, \Neiclosed{G}{v}) \)-confined.
+Then there exists an independent set \( \bfJ \) of \( G \) such that \( \bfI \sevstepT{G} \bfJ \) and \( \Neiclosed{G}{v} \cap \bfJ = \emptyset \).
+</p>
+
+<p>
+<div id="prop:confined-token-in-closed-neghbor" />
+<p class='env-proposition'><strong>Proposition 6.</strong>
+Let \( \bfI \) be an independent set of a block graph \( G \).
+Let \( w \in V(G) \). 
+Assume that no block of \( G \) containing \( w \) is \( (G, \bfI) \)-confined. 
+If there exists some vertex \( x \in \Neiclosed{G}{w} \cap \bfI \) such that the token \( t_x \) placed at \( x \) is \( (G, \bfI, \Neiclosed{G}{w}) \)-confined, 
+	then \( x \) is unique.
+Consequently, there must be some independent set \( \bfJ \) such that \( \bfI \sevstepT{G} \bfJ \) and \( \Neiclosed{G}{w} \cap \bfJ = \{x\} \).
+Moreover, let \( H \) be the graph obtained from \( G \) by turning \( \Neiclosed{G}{w} \) into a clique, called \( B_w \).
+Then \( t_x \) is \( (G, \bfJ, \Neiclosed{G}{w}) \)-confined if and only if \( B_w \) is \( (H, \bfJ) \)-confined.
+</p>
+
+<h1 id="sec:confined-cliques">4 Confined cliques in block graphs</h1>
+
+<p>
+In this section, we show that one can compute \( \ConfinedCliques{G, \bfI} \) in polynomial time, where \( G \) is a block graph and \( \bfI \) is an independent set of \( G \).
+First, we prove an useful characterization of \( (G, \bfI) \)-confined cliques.
+
+<p>
+<div id="lem:characterize-confined-clique" />
+<p class='env-lemma'><strong>Lemma 1.</strong>
+Let \( \bfI \) be an independent set of a block graph \( G \).
+Let \( B \) be a block of \( G \) with \( \bfI \cap B \neq \emptyset \).
+Let \( \Gp = G - B \).
+Then \( B \) is \( (G, \bfI) \)-confined (see <b>Fig.</b> <a href="#fig:characterize-confined-cliques">2</a>(a)) if and only if either \( G = B \) or for every cut vertex \( v \in V(B) \), one of the following conditions holds.
+
+<ul>
+<li> (i) There exists a block \( \Bp \neq B \) of \( G \) containing \( v \) such that \( \Bp - v \) is \( (\Gp, \bfI \cap \Gp) \)-confined (for example, the vertices \( v_1 \) and \( v_2 \) in <b>Fig.</b> <a href="#fig:characterize-confined-cliques">2</a>(a)).</li>
+<li> (ii) For every block \( \Bp \neq B \) of \( G \) containing \( v \), \( \Bp - v \) is not \( (\Gp, \bfI \cap \Gp) \)-confined; and for every \( w \in \Nei{G}{v} \setminus V(B) \), either</li>
+
+<ul>
+  <li> (ii-1) there exists a block \( \Bpp \) of \( \Gp \) containing \( w \) such that \( \Bpp \) is \( (\Gp, \bfI \cap \Gp) \)-confined (for example, the vertex \( v_4 \) in <b>Fig.</b> <a href="#fig:characterize-confined-cliques">2</a>(a)); or</li>
+  <li> (ii-2) every block \( \Bpp \) of \( \Gp \) containing \( w \) is not \( (\Gp, \bfI \cap \Gp) \)-confined;  and there exists \( x \in \Neiclosed{\Gp}{w} \cap \bfI \) such that the token \( t_x \) placed at \( x \) is \( (\Gp, \bfI \cap \Gp, \Neiclosed{\Gp}{w}) \)-confined (for example, the vertex \( v_3 \) in <b>Fig.</b> <a href="#fig:characterize-confined-cliques">2</a>(a)).</li>
+</ul>
+
+</ul>
+
+</p>
+
+<p>
+<!-- original latex figure with scale=0.6 -->
+
+<p>
+<br />
+<center> <!-- figure label: --> <div id="fig:characterize-confined-cliques"></div> <!-- FIGURE -->
+<center><p class="caption">Figure 2:  (a) \( B \) is \( (G, \bfI) \)-confined and (b) \( B \) is not \( (G, \bfI) \)-confined.  <!-- caption label: fig:characterize-confined-cliques --> </p></center>
+<p><img src="fig/characterize-confined-cliques.png" align="bottom" width=400></p>
+</center>
+<br />
+
+<p>
+Next, we characterize \( (G, \bfI) \)-rigid tokens.
+
+<p>
+<div id="lem:characterize-rigid-token" />
+<p class='env-lemma'><strong>Lemma 2.</strong>
+Let \( \bfI \) be an independent set of a block graph \( G \).
+Let \( u \in \bfI \).
+The token \( t \) placed at \( u \) is \( (G, \bfI) \)-rigid (see <b>Fig.</b> <a href="#fig:characterize-rigid-tokens">3</a>) if and only if 
+	for every \( v \in \Nei{G}{u} \), 
+	there exists a vertex \( w \in \big(\Nei{G}{v} \setminus \{u\}\big) \cap \bfI \) such that one of the following conditions holds.
+
+<ul>
+<li> (i) The token \( t_w \) placed at \( w \) is \( (\Gpp, \bfI \cap \Gpp) \)-rigid, where \( \Gpp = G - \Neiclosed{G}{u} \) (for example, the vertex \( w_1 \) in <b>Fig.</b> <a href="#fig:characterize-rigid-tokens">3</a>(a)).</li>
+<li> (ii) The token \( t_w \) placed at \( w \) is not \( (\Gpp, \bfI \cap \Gpp) \)-rigid; and the block \( \Bp \) of \( G \) containing \( v \) and \( w \) satisfies that \( \Bp - v \) is \( (\Gpp, \bfI \cap \Gpp) \)-confined (for example, the vertices \( w_3 \) and \( w_4 \) in <b>Fig.</b> <a href="#fig:characterize-rigid-tokens">3</a>(a)).</li>
+</ul>
+
+</p>
+
+<p>
+<!-- original latex figure with scale=0.6 -->
+
+<p>
+<br />
+<center> <!-- figure label: --> <div id="fig:characterize-rigid-tokens"></div> <!-- FIGURE -->
+<center><p class="caption">Figure 3:  (a) The token placed at \( u \) is \( (G, \bfI) \)-rigid and (b) The token placed at \( u \) is \( (G, \bfI) \)-movable.  <!-- caption label: fig:characterize-rigid-tokens --> </p></center>
+<p><img src="fig/characterize-rigid-tokens.png" align="bottom" width=400></p>
+</center>
+<br />
+
+<p>
+The next lemma says that one can compute all \( (G, \bfI) \)-confined blocks in polynomial time, where \( G \) is a block graph and \( \bfI \) is an independent set of \( G \).
+
+<p>
+<div id="lem:check-confined-in-polytime" />
+<p class='env-lemma'><strong>Lemma 3.</strong>
+Let \( \bfI \) be an independent set of a block graph \( G \).
+Let \( m = \msize{E(G)} \).
+Let \( B \) be a block of \( G \) with \( \bfI \cap B \neq \emptyset \).
+Then, one can check if \( B \) is \( (G, \bfI) \)-confined in \( O(m) \) time.
+Consequently, one can compute \( \ConfinedCliques{G, \bfI} \) in \( O(m^2) \) time.
+</p>
+
+<p>
+<b>Proof.</b>
+We describe a recursive function <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)) which returns <span style='font-variant:small-caps;'>yes</span> if an input induced subgraph \( H \) is \( (G, \bfI) \)-confined, where \( \bfI \) is an independent set of \( G \) and \( H \) is either a clique or a vertex.
+Otherwise, it returns <span style='font-variant:small-caps;'>no</span> and a \( \sfTS \)-sequence \( \calS_H \) in \( G \) which slides the token in \( \bfI \cap H \) (if exists) to a vertex in \( \bigcup_{v \in V(H)}\Nei{G}{v} \setminus V(H) \).
+Clearly, if \( \bfI \cap H = \emptyset \) then <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)) returns <span style='font-variant:small-caps;'>no</span> and there is no such \( \calS_H \) described above.
+Thus, we now assume that \( \bfI \cap H \neq \emptyset \).
+Note that since \( H \) is either a clique or a vertex, \( \msize{\bfI \cap H} = 1 \).
+By definition, it is clear that if \( G = H \) then <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)) returns <span style='font-variant:small-caps;'>yes</span>.
+Then, we now consider the case when \( G \neq H \), i.e., \( G \) contains more than one block.
+Let \( u \) be the unique vertex in \( \bfI \cap H \), and \( t_u \) be the token placed at \( u \).
+Let \( \Gp = G - H \) and \( \Gpp = G - \Neiclosed{G}{u} \).
+If \( H \) is a clique, we will use Lemma <a href="#lem:characterize-confined-clique">1</a> to check if \( H \) is \( (G, \bfI) \)-confined.
+On the other hand, if \( H \) contains only vertex \( u \) (i.e., \( H = (\{u\}, \emptyset) \)), we will use Lemma <a href="#lem:characterize-rigid-token">2</a> to check if \( H \) is \( (G, \bfI) \)-confined (by definition, it is equivalent to checking if \( t_u \) is \( (G, \bfI) \)-rigid).
+
+<p>
+If \( H \) is a clique, then by Lemma <a href="#lem:characterize-confined-clique">1</a>, 
+	for every cut vertex \( v \in V(H) \),
+	we need to check if one of the conditions (i), (ii) of Lemma <a href="#lem:characterize-confined-clique">1</a> holds.
+Note that since \( v \) is a cut vertex, there is at least one block \( \Bp \neq H \) of \( G \) containing \( v \).
+To check if Lemma <a href="#lem:characterize-confined-clique">1</a>(i) holds, we recursively call <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gp \), \( \bfI \cap \Gp \), \( \Bp - v \)) for every block \( \Bp \neq H \) of \( G \) containing \( v \).
+If <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gp \), \( \bfI \cap \Gp \), \( \Bp - v \)) returns <span style='font-variant:small-caps;'>no</span> for all blocks \( \Bp \neq H \) of \( G \) containing \( v \), i.e. Lemma 
+<a href="#lem:characterize-confined-clique">1</a>
+(i) does not hold, 
+	we can construct a \( \sfTS \)-sequence \( \calS_v \) in \( G \) that slides \( t_u \) to \( v \) as follows.
+If \( u = v \) then nothing needs to be done.
+Thus, we assume that \( u \neq v \), which then implies that \( v \notin \bfI \).
+In order to slide \( t_u \) to \( v \), we need to make sure that for every block \( \Bp \neq H \) of \( G \) containing \( v \), if \( \bfI \cap (\Bp - v) \neq \emptyset \), 
+	the token in \( \bfI \cap (\Bp - v) \) need to be moved to a vertex not in \( \Bp - v \) first.
+To do this, note that for each such \( \Bp \), the function <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gp \), \( \bfI \cap \Gp \), \( \Bp - v \)) also returns a \( \sfTS \)-sequence \( \calS_{\Bp - v} \) in \( \Gp \) that slides the token in \( \bfI \cap (\Bp - v) \) to a vertex in \( \bigcup_{x \in V(\Bp - v)}\Nei{\Gp}{x} \setminus V(\Bp - v) \).
+By Proposition <a href="#prop:TS-in-subgraphs-blockgraph">4</a>, such a sequence \( \calS_{\Bp - v} \) can indeed be performed in \( G \).
+Hence, \( \calS_v \) can be constructed (using the results from <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gp \), \( \bfI \cap \Gp \), \( \Bp - v \))) by first performing all \( \calS_{\Bp - v} \), then performing a single step of sliding \( t_u \) to \( v \).  
+If Lemma <a href="#lem:characterize-confined-clique">1</a>(i) does not hold, for every \( w \in \Nei{G}{v} \setminus V(H) \), we need to check if Lemma <a href="#lem:characterize-confined-clique">1</a>(ii) holds.
+We first need to check whether there exists a block \( \Bpp \) of \( \Gp \) containing \( w \)
+	such that \( \Bpp \) is \( (\Gp, \bfI \cap \Gp) \)-confined.
+This can be done by calling <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gp \), \( \bfI \cap \Gp \), \( \Bpp \)) for all blocks \( \Bpp \) of \( \Gp \) containing \( w \) such that \( \bfI \cap \Bpp \neq \emptyset \).
+If the result is <span style='font-variant:small-caps;'>no</span> for every such \( \Bpp \), i.e., Lemma <a href="#lem:characterize-confined-clique">1</a>(ii-1) does not hold, 
+	we still need to check if  Lemma <a href="#lem:characterize-confined-clique">1</a>(ii-2) holds.
+To do this, we consider the following cases.
+
+<ul>
+<li>  <b>Case 1:</b> \( \msize{\Neiclosed{\Gp}{w} \cap \bfI} = 0 \).</li>
+</ul>
+
+In this case, Lemma <a href="#lem:characterize-confined-clique">1</a>(iii) does not hold, which then implies that <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)) returns <span style='font-variant:small-caps;'>no</span>.
+To see this, we shall construct a \( \sfTS \)-sequence \( \calS_H \) in \( G \) that slides \( t_u \) to \( w \in \Nei{G}{v} \setminus V(H) \).
+Indeed, \( \calS_H \) can be constructed by simply performing two steps of sliding: \( t_u \) to \( v \), and then \( t_u \) from \( v \) to \( w \) (since \( \msize{\Neiclosed{\Gp}{w} \cap \bfI} = 0 \)). 
+
+<ul>
+<li>  <b>Case 2:</b> \( \msize{\Neiclosed{\Gp}{w} \cap \bfI}  = 1 \).</li>
+</ul>
+
+Let \( K \) be the block graph obtained from \( \Gp \) by turning \( \Neiclosed{\Gp}{w} \) into a clique, called \( B_w \).
+By Proposition <a href="#prop:confined-token-in-closed-neghbor">6</a>, checking if Lemma <a href="#lem:characterize-confined-clique">1</a>(iii) holds is equivalent to checking if \( B_w \) is \( (K, \bfI) \)-confined.
+In case Lemma <a href="#lem:characterize-confined-clique">1</a>(iii) holds, 
+	the construction of \( \calS_H \) can be done by 
+	first sliding the token in \( \Neiclosed{\Gp}{w} \cap \bfI \) to some vertex not in \( \Neiclosed{\Gp}{w} \cap \bfI \) (converting a \( \sfTS \)-sequence in \( K \) to a \( \sfTS \)-sequence in \( \Gp \) as in Proposition <a href="#prop:confined-token-in-closed-neghbor">6</a>, 
+	and extending that \( \sfTS \)-sequence to a \( \sfTS \)-sequence in \( G \) using Proposition <a href="#prop:TS-in-subgraphs-blockgraph">4</a>), 
+	and then use the process described in <b>Case 1</b> to slide \( t_u \) to \( w \). 
+
+<ul>
+<li>  <b>Case 3:</b> \( \msize{\Neiclosed{\Gp}{w} \cap \bfI} \geq 2 \).</li>
+</ul>
+
+We first show how to construct an independent set \( \bfJ \) such that \( \bfI \sevstepT{G} \bfJ \) and \( \msize{\Neiclosed{\Gp}{w} \cap \bfJ} \leq 1 \).
+Note that since \( \msize{\Neiclosed{\Gp}{w} \cap \bfI} \geq 2 \), we have \( w \notin \bfI \).
+The idea of this construction comes from Proposition <a href="#prop:every-token-is-not-confined">5</a> and Proposition <a href="#prop:confined-token-in-closed-neghbor">6</a>.
+Proposition <a href="#prop:confined-token-in-closed-neghbor">6</a> indeed implies that there is at most one token \( t_x \) in \( \Neiclosed{\Gp}{w} \cap \bfI \) that is \( (\Gp, \bfI \cap \Gp, \Neiclosed{\Gp}{w}) \)-confined.
+In other words, all tokens in \( \Neiclosed{\Gp}{w} \cap \bfI \) except \( t_x \) (if exists) can be slid to a vertex not in \( \Neiclosed{\Gp}{w} \).
+Now, for each block \( \Bpp \) of \( \Gp \) containing \( w \) with \( \bfI \cap \Bpp \neq \emptyset \), from the results of calling <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gp \), \( \bfI \cap \Gpp \), \( \Bpp \)), 
+	we obtain a \( \sfTS \)-sequence \( \calS_{\Bpp} \) in \( \Gp \) (which can also be extended in \( G \) using Proposition <a href="#prop:TS-in-subgraphs-blockgraph">4</a>) that moves the token in \( \bfI \cap \Bpp \) to a vertex not in \( \Bpp \).
+Note that \( \calS_{\Bpp} \) may or may not contain the step of sliding the token in \( \bfI \cap \Bpp \) to \( w \).
+If for some block \( \Bpp \) of \( \Gp \) containing \( w \) with \( \bfI \cap \Bpp \neq \emptyset \), \( \calS_{\Bpp} \) contains such a step, then clearly it will move all other tokens in \( \bfI \cap \Neiclosed{\Gp}{w} \) &quot;out of&quot; \( \Neiclosed{\Gp}{w} \) first,
+	and then moves the token in \( \bfI \cap \Bpp \) to \( w \).
+Stop at this point, we obtain an independent set \( \bfJ \) such that \( \bfI \sevstepT{G} \bfJ \) and \( \msize{\Neiclosed{\Gp}{w} \cap \bfJ} = 1 \).
+The only token in \( \Neiclosed{\Gp}{w} \cap \bfJ \) is now indeed the token placed at \( w \). 
+On the other hand, if for all blocks \( \Bpp \) of \( \Gp \) containing \( w \) with \( \bfI \cap \Bpp \neq \emptyset \), \( \calS_{\Bpp} \) does not contain the step of sliding the token in \( \bfI \cap \Bpp \) to \( w \),
+	then we simply perform all such \( \calS_{\Bpp} \).
+Since \( G \) is a block graph, all such \( \calS_{\Bpp} \) can indeed be performed independently, 
+	i.e., no sequence involves any vertex that is involved by other sequences.
+At the end of this process, we obtain an independent set \( \bfJ \) such that \( \bfI \sevstepT{G} \bfJ \) and \( \msize{\Neiclosed{\Gp}{w} \cap \bfJ} = 0 \).
+Once we have \( \bfJ \), the checking process can indeed be done using either <b>Case 1</b> or <b>Case 2</b>. 
+Keep in mind that the construction of \( \bfJ \) uses only the results that can be obtained from the recursive callings of the <span style='font-variant:small-caps;'>CheckConfined</span> function.
+
+<p>
+In the above arguments, we have analyzed the cases that <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)) returns <span style='font-variant:small-caps;'>no</span> using Lemma <a href="#lem:characterize-confined-clique">1</a>, where \( H \) is a clique.
+In all other cases, <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)) indeed returns <span style='font-variant:small-caps;'>yes</span> (by Lemma <a href="#lem:characterize-confined-clique">1</a>).
+
+<p>
+If \( H \) contains only a single vertex \( u \), then by Lemma <a href="#lem:characterize-rigid-token">2</a>, we need to check that for every \( v \in \Nei{G}{u} \), 
+	whether there exists a vertex \( w \in \big(\Nei{G}{v} \setminus \{u\}\big) \cap \bfI \) such that 
+	one of the conditions (i), (ii) of Lemma <a href="#lem:characterize-rigid-token">2</a> holds.
+Clearly, if \( \big( \Nei{G}{v} \setminus \{u\} \big) \cap \bfI = \emptyset \), one can construct a \( \sfTS \)-sequence \( \calS_H \) that slides \( t_u \) to \( v \) by performing the single step of sliding \( t_u \) to \( v \), and hence <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)) returns <span style='font-variant:small-caps;'>no</span>.
+Next, we consider the case when  \( \big( \Nei{G}{v} \setminus \{u\} \big) \cap \bfI \neq \emptyset \).
+In this case, for every \( w \in  \big( \Nei{G}{v} \setminus \{u\} \big) \cap \bfI \), we recursively call <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gpp \), \( \bfI \cap \Gpp \), \( \{w\} \)) to check if Lemma <a href="#lem:characterize-rigid-token">2</a>(i) holds.
+If <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gpp \), \( \bfI \cap \Gpp \), \( \{w\} \)) = <span style='font-variant:small-caps;'>no</span> for all \( w \in \big( \Nei{G}{v} \setminus \{u\} \big) \cap \bfI \), we still need to check if Lemma <a href="#lem:characterize-rigid-token">2</a>(ii) holds by calling <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gpp \), \( \bfI \cap \Gpp \), \( B_w - v \)) for all \( w \in \big( \Nei{G}{v} \setminus \{u\} \big) \cap \bfI \), where \( B_w \) denotes the (unique) block of \( G \) containing both \( v, w \).
+If <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gpp \), \( \bfI \cap \Gpp \), \( B_w - v \)) returns <span style='font-variant:small-caps;'>no</span> for all \( w \in \big( \Nei{G}{v} \setminus \{u\} \big) \cap \bfI \), we can indeed return <span style='font-variant:small-caps;'>no</span> for the function <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)).
+The \( \sfTS \)-sequence \( \calS_H \) that moves \( t_u \) to \( v \) in this case can be constructed as follows.
+For each \( w \in \big( \Nei{G}{v} \setminus \{u\} \big) \cap \bfI \), since <span style='font-variant:small-caps;'>CheckConfined</span>(\( \Gpp \), \( \bfI \cap \Gpp \), \( B_w - v \)) returns <span style='font-variant:small-caps;'>no</span>, there must be a \( \sfTS \)-sequence \( \calS_{\Bp - v} \) in \( \Gpp \) (which can be extended to \( G \) using Proposition <a href="#prop:TS-in-subgraphs">3</a>) that slides the token in \( \bfI \cap (\Bp - v) \) to a vertex in \( \bigcup_{z \in V(\Bp - v)}\Nei{\Gp}{\Bp - v} \setminus V(\Bp - v) \).
+\( \calS_H \) then can be constructed by first performing all such \( \calS_{\Bp - v} \), and then performing a single step of sliding \( t_u \) to \( v \).
+In the above arguments, we have analyzed the cases that <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)) returns <span style='font-variant:small-caps;'>no</span> using Lemma <a href="#lem:characterize-rigid-token">2</a>, where \( H \) is a vertex.
+In all other cases, <span style='font-variant:small-caps;'>CheckConfined</span>(\( G \), \( \bfI \), \( H \)) indeed returns <span style='font-variant:small-caps;'>yes</span> (by Lemma <a href="#lem:characterize-rigid-token">2</a>).
+
+<p>
+Next, we analyze the complexity of the described algorithm.
+First of all, note that all the \( \sfTS \)-sequences mentioned in the described algorithm can indeed be construction using the results from the recursive callings of the <span style='font-variant:small-caps;'>CheckConfined</span> function.
+Thus, the running time of our algorithm is indeed proportional to the number of callings of the <span style='font-variant:small-caps;'>CheckConfined</span> function.
+For a vertex \( v \in V(G) \), let \( f(v) \) be the number of calling <span style='font-variant:small-caps;'>CheckConfined</span> <em>related</em> to \( v \), in the sense that the function <span style='font-variant:small-caps;'>CheckConfined</span> is either called for \( v \) or for a block containing \( v \).
+Thus, the total number of callings <span style='font-variant:small-caps;'>CheckConfined</span> is indeed bounded by \( \sum_{v \in V(G)}f(v) \).
+Moreover, from the described algorithm, note that \( f(v) \) is at most \( O(\deg_G(v)) \).
+Hence, checking if \( H \) is \( (G, \bfI) \)-confined takes at most \( O(\sum_{v \in V(G)}\deg_G(v)) = O(m) \) time, where \( H \) is either a clique or a vertex.
+Consequently, since the number of blocks of \( G \) is \( O(m) \), computing \( \ConfinedCliques{G, \bfI} \) takes at most \( O(m^2) \) time.
+
+<h1 id="sec:TS-on-block-graphs">5 Sliding tokens on block graphs</h1>
+
+<p>
+Let \( G \) be a block graph, and let \( \bfI, \bfJ \) be two independent sets of \( G \).
+In this section, we prove the following main result of this paper.
+
+<p>
+<div id="thrm:main" />
+<p class='env-theorem'><strong>Theorem 1.</strong>
+Let \( (G, \bfI, \bfJ) \) be an instance of the <span style='font-variant:small-caps;'>Sliding Token</span> problem, where \( \bfI, \bfJ \) are two independent sets of a block graph \( G \).
+Then, one can decide if \( \bfI \sevstepT{G} \bfJ \) in \( O(m^2) \) time, where \( m = \msize{E(G)} \).
+</p>
+
+<p>
+To prove Theorem <a href="#thrm:main">1</a>, we shall describe a polynomial-time algorithm for deciding if \( \bfI \sevstepT{G} \bfJ \), estimate its running time, and then prove its correctness.
+The following algorithm checks if \( \bfI \sevstepT{G} \bfJ \).
+
+<ul>
+<li>  <b>Step 1:</b></li>
+
+<ul>
+  <li>  <b>Step 1-1:</b> If \( \ConfinedCliques{G, \bfI} \neq \ConfinedCliques{G, \bfJ} \), return <span style='font-variant:small-caps;'>no</span>.</li>
+  <li>  <b>Step 1-2:</b> Otherwise, remove all cliques in \( \ConfinedCliques{G, \bfI} \) and go to <b>Step 2</b>. Let \( \Gp \) be the resulting graph.</li>
+</ul>
+
+<li>  <b>Step 2:</b> If \( \msize{\bfI \cap F} \neq \msize{\bfJ \cap F} \) for some component \( F \) of \( \Gp \), return <span style='font-variant:small-caps;'>no</span>. Otherwise, return <span style='font-variant:small-caps;'>yes</span>.</li>
+</ul>
+
+We now analyze the time complexity of the algorithm.
+Let \( m, n \) be respectively the number of edges and vertices of \( G \).
+By Lemma <a href="#lem:check-confined-in-polytime">3</a>, <b>Step 1-1</b> takes at most \( O(m^2) \) time.
+<b>Step 1-2</b> clearly takes at most \( O(n) \) time.
+Hence, <b>Step 1</b> takes at most \( O(m^2) \) time.
+<b>Step 2</b> takes at most \( O(n) \) time.
+In total, the algorithm runs in \( O(m^2) \) time.
+
+<p>
+The rest of this section is devoted to showing the correctness of the algorithm.
+First of all, the following lemma is useful.
+
+<p>
+<div id="lem:one-block" />
+<p class='env-lemma'><strong>Lemma 4.</strong>
+Let \( \bfI \) be an independent set of a block graph \( G \).
+Let \( w \in V(G) \). 
+Assume that every block of \( G \) containing \( w \) is not \( (G, \bfI) \)-confined. 
+Then, there is at most one block \( B \) of \( G \) containing \( w \) such that \( B - w \) is \( (\Gp, \bfI \cap \Gp) \)-confined, where \( \Gp = G - w \).
+</p>
+
+<p>
+The next lemma ensures the correctness of <b>Step 1-1</b>.
+
+<p>
+<div id="lem:no-instance" />
+<p class='env-lemma'><strong>Lemma 5.</strong>
+Let \( (G, \bfI, \bfJ) \) be an instance of the <span style='font-variant:small-caps;'>Sliding Token</span> problem, where \( \bfI, \bfJ \) are two independent sets of a block graph \( G \).
+Then, it is a <span style='font-variant:small-caps;'>no</span>-instance if \( \ConfinedCliques{G, \bfI} \neq \ConfinedCliques{G, \bfJ} \).
+</p>
+
+<p>
+In the next lemma, we claim that <b>Step 1-2</b> is correct.
+
+<p>
+<div id="lem:remove-all-confined-cliques" />
+<p class='env-lemma'><strong>Lemma 6.</strong>
+Let \( (G, \bfI, \bfJ) \) be an instance of the <span style='font-variant:small-caps;'>Sliding Token</span> problem, where \( \bfI, \bfJ \) are two independent sets of a block graph \( G \) satisfying that \( \ConfinedCliques{G, \bfI} = \ConfinedCliques{G, \bfJ} \).
+Let \( \Gp \) be the graph obtained from \( G \) by removing all cliques in \( \ConfinedCliques{G, \bfI} = \ConfinedCliques{G, \bfJ} \).
+Then, \( \bfI \sevstepT{G} \bfJ \) if and only if \( \bfI \cap \Gp \sevstepT{\Gp} \bfJ \cap \Gp \).
+Furthermore, \( \ConfinedCliques{\Gp, \bfI \cap \Gp} = \ConfinedCliques{\Gp, \bfJ \cap \Gp} = \emptyset \).
+</p>
+
+<p>
+<b>Proof.</b>
+Let \( \calS = \langle \bfI = \bfI_1, \bfI_2, \dots, \bfI_\ell = \bfJ \rangle \) be a \( \sfTS \)-sequence in \( G \) that reconfigures \( \bfI \) to \( \bfJ \).
+We claim that there exists a \( \sfTS \)-sequence \( \calSp \) in \( \Gp \) that reconfigures \( \bfI \cap \Gp \) to \( \bfJ \cap \Gp \).
+Note that for any independent set \( \bfI \) of \( G \), \( \bfI \cap \Gp \) forms an independent set of \( \Gp \).
+Moreover, for \( i = 1, 2, \dots, \ell - 1 \), let \( uv \) be an edge of \( G \) such that \( u \in \bfI_i \setminus \bfI_{i+1} \) and \( v \in \bfI_{i+1} \setminus \bfI_i \), then clearly \( u \) and \( v \) must be either both in \( \Gp \) or both in some block \( B \in \ConfinedCliques{G, \bfI} \).
+Hence, the sequence \( \calSp = \langle \bfI_1 \cap \Gp, \dots, \bfI_\ell \cap \Gp \rangle \) reconfigures \( \bfI_1 \cap \Gp = \bfI \cap \Gp \) to \( \bfI_\ell \cap \Gp = \bfJ \cap \Gp \).
+
+<p>
+Let \( \calSp = \langle \bfI \cap \Gp = \bfIp_1, \bfIp_2, \dots, \bfIp_l = \bfJ \cap \Gp \rangle \) be a \( \sfTS \)-sequence in \( \Gp \) that reconfigures \( \bfI \cap \Gp \) to \( \bfJ \cap \Gp \).
+We claim that there exists a \( \sfTS \)-sequence \( \calS \) in \( G \) that reconfigures \( \bfI = (\bfI \cap \Gp) \cup \bigcup_{B \in \ConfinedCliques{G, \bfI}}(\bfI \cap B) \) to \( \bfJ = (\bfJ \cap \Gp) \cup \bigcup_{B \in \ConfinedCliques{G, \bfI}}(\bfJ \cap B) \).
+Note that for an independent set \( \bfIp \) of \( \Gp \) and a block \( B \in \ConfinedCliques{G, \bfI} \), it is not necessary that \( \bfIp \cup (\bfIpp \cap B) \) forms an independent set of \( G \),
+	where \( \bfIpp \) is an independent set of \( G \) such that \( \bfI \sevstepT{G} \bfIpp \).
+For a component \( F \) of \( \Gp \), one can construct a \( \sfTS \)-sequence \( \calSp_F = \langle \bfIp_1 \cap F, \dots, \bfIp_l \cap F \rangle \) in \( F \). 
+We now describe how to construct \( \calS \).
+Let \( A = \bigcup_{B \in \ConfinedCliques{G, \bfI}}\bigcup_{v \in \bfI \cap B}\big( \Nei{G}{v} \cap V(F) \big) \).
+For a component \( F \) of \( \Gp \), we consider the following cases.
+
+<ul>
+<li>  \( \calSp_F \) <b>does not involve any vertex in</b> \( A \).</li>
+</ul>
+
+In this case, note that for every independent set \( \bfI_F \) of \( F \) and a block \( B \in \ConfinedCliques{G, \bfI} \), the set \( \bfI_F \cup (\bfJ \cap B) \) forms an independent set of \( G \), where \( \bfJ \) is any independent set of \( G \) satisfying \( \bfI \sevstepT{G} \bfJ \).
+Thus, such a sequence \( \calSp_F \) above indeed can be &quot;extended&quot; to a \( \sfTS \)-sequence in \( G \).
+
+<ul>
+<li>  \( \calSp_F \) <b>involves vertices in</b> \( A \).</li>
+</ul>
+
+Note that for a block \( B \in \ConfinedCliques{G, \bfI} \), 
+	since \( G \) is a block graph, 
+	there is at most one vertex \( v \in V(B) \) satisfying that \( \Nei{G}{v} \cap V(F) \neq \emptyset \).
+Moreover, if there exists two vertices \( u_1, u_2 \in V(F) \) such that \( \Nei{G}{u_i} \cap V(B) \neq \emptyset \) (\( i = 1, 2 \)) then they must be adjacent to the same vertex in \( B \).
+Let \( v \) be the unique vertex in \( \bfI \cap B \) and assume that \( \Nei{G}{v} \cap V(F) \neq \emptyset \).
+Then, the token \( t_v \) placed at \( v \) must not be \( (G, \bfI) \)-rigid.
+To see this, note that, if the token \( t \) placed at \( u \in \bfI \) is \( (G, \bfI) \)-rigid, then by definition of confined cliques, any block of \( G \) containing \( u \) must be in \( \ConfinedCliques{G, \bfI} \). 
+Hence, for a block \( B \in \ConfinedCliques{G, \bfI} \) and \( v \in \bfI \cap B \) with \( \Nei{G}{v} \cap V(F) \neq \emptyset \), there exists a \( \sfTS \)-sequence \( \calSp(B, v) \) in \( G \) that moves the token \( t_v \) placed at \( v \) to some other vertex in \( B \).
+Since \( G \) is a block graph, if there are two of such block \( B \), say \( B_1 \) and \( B_2 \), with \( v_1 \in \bfI \cap B_1 \) and \( v_2 \in \bfI \cap B_2 \),
+	then clearly \( \calSp(B_1, v_1) \) does not involve any token which is involved by \( \calSp(B_2, v_2) \) (and vice versa).
+
+<p>
+Now, we construct a \( \sfTS \)-sequence \( \calS \) in \( G \) that reconfigures \( \bfI \) to \( \bfJ \) as follows.
+First, we perform all \( \sfTS \)-sequence \( \calSp_F \) that does not involve any vertex in \( A \).
+Next, for a component \( F \) with the corresponding sequence \( \calSpp_F \) involving  
+	let \( B \in \ConfinedCliques{G, \bfI} \) such that there exists a (unique) vertex \( v \in \bfI \cap B \) satisfying that \( \Nei{G}{v} \cap V(F) \subseteq A \).
+For such component \( F \) and such block \( B \), we first perform \( \calSp(B, v) \), then perform \( \calSp_F \), and then perform \( \calSp(B, v) \) in reverse order.
+Note that if after performing \( \calSp(B, v) \), the token \( t_v \) (originally placed at \( v \)) is placed at some vertex \( w \in \bfJ \), then in the step of reversing \( \calSp(B, v) \), we do not reverse the step of sliding \( t_v \) to \( w \).
+At this moment, we have reconfigured \( \bfI \cap \Gp \) to \( \bfJ \cap \Gp \) in \( G \). 
+It remains to reconfigure \( \bfI \cap B \) to \( \bfJ \cap B \) in \( G \) for each block \( B \in \ConfinedCliques{G, \bfI} \), which can be done using the observation that for any vertex \( v \in \bfJ \cap B \), \( \Nei{G}{v} \cap \bfJ \neq \emptyset \).
+
+<p>
+Finally, we claim that \( \ConfinedCliques{\Gp, \bfI \cap \Gp} = \emptyset \).
+Similar arguments can also be applied for showing \( \ConfinedCliques{\Gp, \bfJ \cap \Gp} = \emptyset \).
+Assume for the contradiction that there exists some block \( B^\prime \in \ConfinedCliques{\Gp, \bfI \cap \Gp} \).
+Let \( v \) be the unique vertex in \( \bfI \cap B^\prime \), and let \( B \) be the block of \( G \) containing \( \Bp \).
+We consider the following cases.
+
+<ul>
+<li>  \( B = \Bp \).</li>
+</ul>
+
+Note that since \( \Bp \) is a block of both \( G \) and \( \Gp \), 
+	it follows that \( \Bp \) is not \( (G, \bfI) \)-confined.
+In other words, there exists a \( \sfTS \)-sequence \( \calS \) in \( G \) that slides the token \( t_v \) placed at \( v \in \bfI \cap \Bp \) to some vertex not in \( \Bp \).
+Moreover, as before, we have proved that such a \( \sfTS \)-sequence can indeed be &quot;restricted&quot; to \( \Gp \) based on the observation that 
+	for any independent set \( \bfI \) of \( G \), \( \bfI \cap \Gp \) forms an independent set of \( \Gp \) 
+	and any sliding step is performed either along edges of \( \Gp \) or along edges of some \( (G, \bfI) \)-confined block.
+Therefore, \( \Bp \) is not \( (\Gp, \bfI \cap \Gp) \)-confined, a contradiction.
+
+<ul>
+<li>  \( \msize{V(B) \setminus V(B^\prime)} = 1 \).</li>
+</ul>
+
+Let \( w \) be the unique vertex in \( V(B) \setminus V(B^\prime) \). 
+Note that since \( w \) is a vertex of some \( (G, \bfI) \)-confined block \( C \neq B \), the token \( t_v \) placed at \( v \) cannot be slid to \( w \) in \( G \).
+Since \( B \) is not \( (G, \bfI) \)-confined, as before, there exists a \( \sfTS \)-sequence \( \calS \) in \( G \) that slides the token \( t_v \) placed at \( v \in \bfI \cap \Bp \) to some vertex not in \( \Bp \).
+Moreover, \( \calS \) does not move \( t_v \) to \( w \), which means that it moves \( t_v \) to some vertex of \( \Gp \) that is not in \( \Bp \).
+Thus, \( \calS \) can indeed be &quot;restricted&quot; to \( \Gp \), which means that \( \Bp \) is indeed not \( (\Gp, \bfI \cap \Gp) \)-confined, a contradiction.
+
+<p>
+Before proving the correctness of <b>Step 2</b>, we need some extra definitions.
+Let \( B \) be a block of a block graph \( G \).
+A block \( \Bp \neq B \) of \( G \) is called a <em>neighbor</em> of \( B \) if \( V(B) \cap V(\Bp) \neq \emptyset \).
+\( B \) is called <em>safe</em> if it has at most one cut vertex and at most one neighbor having more than one cut vertex.
+A vertex \( v \in V(G) \) is called <em>safe</em> if it is a non-cut vertex of a safe block of \( G \).
+
+<p>
+The next two lemmas are useful for showing the correctness of <b>Step 2</b>.
+
+<p>
+<div id="lem:slide-tokens-to-safe-vertex" />
+<p class='env-lemma'><strong>Lemma 7.</strong>
+Let \( \bfI \) be an independent set of a block graph \( G \) such that \( \ConfinedCliques{G, \bfI} = \emptyset \).
+Let \( v \) be a safe vertex of \( G \).
+Then, there exists an independent set \( \bfJ \) of \( G \) with \( \bfI \sevstepT{G} \bfJ \) and \( v \in \bfJ \).
+</p>
+
+<p>
+<div id="lem:remove-safe-block" />
+<p class='env-lemma'><strong>Lemma 8.</strong>
+Let \( \bfI \) be an independent set of a block graph \( G \) such that \( \ConfinedCliques{G, \bfI} = \emptyset \).
+Let \( v \in \bfI \) be a safe vertex of \( G \) and let \( B_v \) be the (unique) safe block of \( G \) containing \( v \).
+Let \( \Gstar \) be the subgraph of \( G \) obtained by removing \( B_v \).
+Then, \( \ConfinedCliques{\Gstar, \bfI \cap \Gstar} = \emptyset \).
+</p>
+
+<p>
+The following lemma ensures the correctness of <b>Step 2</b>.
+
+<p>
+<div id="lem:yes-instance-if-same-size" />
+<p class='env-lemma'><strong>Lemma 9.</strong>
+
+<p>
+Let \( (G, \bfI, \bfJ) \) be an instance of the <span style='font-variant:small-caps;'>Sliding Token</span> problem, where \( \bfI, \bfJ \) are two independent sets of a block graph \( G \) satisfying that \( \ConfinedCliques{G, \bfI} = \ConfinedCliques{G, \bfJ} = \emptyset \).
+Then, \( \bfI \sevstepT{G} \bfJ \) if and only if \( \msize{\bfI} = \msize{\bfJ} \).
+</p>
+
+<p>
+<b>Proof.</b>
+The only-if-part is trivial.
+We shall prove the if-part, i.e., if \( \msize{\bfI} = \msize{\bfJ} \) then \( \bfI \sevstepT{G} \bfJ \).
+More precisely, we claim that there exists an independent set \( \bfIstar \) such that \( \bfI \sevstepT{G} \bfIstar \) and \( \bfJ \sevstepT{G} \bfIstar \).
+Indeed, \( \bfIstar \) can be constructed as follows.
+Initially, \( \bfIstar = \emptyset \).
+
+<ul>
+<li>  Pick a safe vertex \( v \) of \( G \). (Note that the &quot;tree-like&quot; structure of a block graph ensures that one can always find a safe block, and hence a safe vertex.)</li>
+<li>  Slide a token from \( \bfI \) and a token from \( \bfJ \) to \( v \).</li>
+</ul>
+
+Then, add \( v \) to \( \bfIstar \).
+This can be done using Lemma <a href="#lem:slide-tokens-to-safe-vertex">7</a>.
+Let \( \bfIp \) and \( \bfJp \) be the resulting independent sets.
+
+<ul>
+<li>  Let \( \Gp \) be the graph obtained by removing \( B_v \) - the (unique) block of \( G \) containing \( v \).</li>
+<li>  Repeat the above steps with the new triple \( (\Gp, \bfIp \setminus \{v\}, \bfJp \setminus \{v\}) \) instead of \( (G, \bfI, \bfJ) \). The procedure stops when there is no token to move.</li>
+</ul>
+
+The correctness of this construction is followed from Lemma <a href="#lem:slide-tokens-to-safe-vertex">7</a> and Lemma <a href="#lem:remove-safe-block">8</a>.
+
+<p>
+<b>Acknowledgement.</b>
+
+The first author would like to thank Yota Otachi for his useful discussions. 
+This work is partially supported by MEXT/JSPS Kakenhi Grant Number 26330009 and 24106004.
+
+<h2 id="___sec7">References </h2>
+
+<p>
+<!-- begin bibliography -->
+
+<ol>
+ <li> <div id="Heuvel2013"></div> <b>Jan van den Heuvel</b>. 
+    The Complexity of Change,
+    Surveys in Combinatorics 2013,
+    edited by <b>Simon R. Blackburn, Stefanie Gerke and Mark Wildon</b>,
+    Cambridge University Press,
+    pp. pp. 127-160,
+    2013.</li>
+ <li> <div id="HearnDemaine2005"></div> <b>Robert A. Hearn and Erik D. Demaine</b>. 
+    PSPACE-Completeness of Sliding-Block Puzzles and Other Problems Through the Nondeterministic Constraint Logic Model of Computation,
+    <em>Theoretical Computer Science</em>,
+    343(1),
+    pp. 72-96,
+    2005.</li>
+ <li> <div id="IDHPSUU"></div> <b>Takehiro Ito, Erik D. Demaine, Nicholas J. A. Harvey, Christos H. Papadimitriou, Martha Sideri, Ryuhei Uehara and Yushi Uno</b>. 
+    On the Complexity of Reconfiguration Problems,
+    <em>Theoretical Computer Science</em>,
+    412(12),
+    pp. 1054-1065,
+    2011.</li>
+ <li> <div id="KaminskiMedvedevMilanic2012"></div> <b>Marcin Kamiński, Paul Medvedev and Martin Milanič</b>. 
+    Complexity of Independent Set Reconfigurability Problems,
+    <em>Theoretical Computer Science</em>,
+    439,
+    pp. 9-15,
+    2012.</li>
+ <li> <div id="MouawadNishimuraRamanWrochna"></div> <b>Amer E. Mouawad, Naomi Nishimura, Venkatesh Raman and Marcin Wrochna</b>. 
+    Reconfiguration Over Tree Decompositions,
+    <em>Parameterized and Exact Computation - IPEC 2014</em>,
+    edited by <b>Marek Cygan and Pinar Heggernes</b>,
+    Springer,
+    2014.</li>
+ <li> <div id="BonsmaKaminskiWrochna"></div> <b>Paul Bonsma, Marcin Kamiński and Marcin Wrochna</b>. 
+    Reconfiguring Independent Sets in Claw-Free Graphs,
+    <em>Algorithm Theory - SWAT 2014</em>,
+    edited by <b>R. Ravi and Inge Li Gørtz</b>,
+    Springer,
+    2014.</li>
+ <li> <div id="DDFEHIOOUY2015"></div> <b>Erik D. Demaine, Martin L. Demaine, Eli Fox-Epstein, Duc A. Hoang, Takehiro Ito, Hirotaka Ono, Yota Otachi, Ryuhei Uehara and Takeshi Yamada</b>. 
+    Linear-Time Algorithm for Sliding Tokens on Trees,
+    <em>Theoretical Computer Science</em>,
+    600,
+    pp. 132-142,
+    2015.</li>
+ <li> <div id="FoxEpsteinHoangOtachiUehara2015"></div> <b>Eli Fox-Epstein, Duc A. Hoang, Yota Otachi and Ryuhei Uehara</b>. 
+    Sliding Token on Bipartite Permutation Graphs,
+    <em>Algorithms and Computation - ISAAC 2015</em>,
+    edited by <b>Khaled Elbassioni and Kazuhisa Makino</b>,
+    Springer,
+    2015.</li>
+ <li> <div id="Hoang2016cactus"></div> <b>Duc A. Hoang and Ryuhei Uehara</b>. 
+    Sliding Tokens on a Cactus,
+    <em>Algorithms and Computation - ISAAC 2016</em>,
+    edited by <b>Seok-Hee Hong</b>,
+    Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik,
+    2016.</li>
+<li> <div id="Diestel2010"></div> <b>Reinhard Diestel</b>. 
+    <em>Graph Theory</em>,
+    4th edition,
+    <em>Graduate Texts in Mathematics</em>,
+    Springer,
+    2010.</li>
+</ol>
+
+<!-- end bibliography -->
+
+<!-- ------------------- end of main content --------------- -->
+
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<hr>
+
+<footer class="footer">
+<span>&copy; 2013 - 2017 Duc A. Hoang. Powered by <a href="https://github.com/hplgit/doconce">DocOnce</a>.
+</span>
+</footer>
+	
+
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
+
